@@ -1,0 +1,102 @@
+.section-one
+{
+    height: 100vh;
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 26, 26,0.6);
+}
+
+.content h1
+{
+    font-size: 4.5rem;
+}
+
+.menu{
+    width: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.menu-btn
+{
+    left: 1%;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+#x , .menu a
+{
+    cursor: pointer;
+    transition: all 0.5s;
+    color: white;
+}
+
+#x:hover , .menu a:hover 
+{
+    color: brown;
+}
+
+.head
+{
+    font-size: 2rem;
+    background-color: #e68185;
+}
+
+.cont p
+{
+    background-color: rgb(204, 204, 204);
+}
+.section-three
+{
+    background-image: linear-gradient(rgb(228, 26, 26,0.6),rgb(228, 26, 26,0.6)),url(../imgs/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    
+}
+.square
+{
+    width: 20%;
+    height: 70%;
+    border: 3px solid rgb(217, 163, 163);
+    margin: 0 10px;
+    background-color: rgba(117, 17, 17, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer span
+{
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.section-four
+{
+    height: 100vh;
+    background-color: white;
+    width: 100%;
+}
+.iconat i
+{
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    transition: all 0.5s;
+}
+.iconat i:hover
+{
+    color: white;
+    background-color: rgb(228, 26, 26);
+}
